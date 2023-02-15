@@ -1,0 +1,32 @@
+#blue {color: #0000CC;font-family: Tahoma}
+#blue_2{color:#3366FF;font-family: Tahoma}
+#brown{color:996633;font-family: Times}
+#brown_2{color: #cc6600; font-family: Times}
+body{background-color: #CCFFFF }
+a:link {
+  color: blue; 
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: blue
+
+}
+ a:hover {
+   color: orange; 
+     text-decoration: underline;}
+
+
+
+a.red:link {
+  color: blue; 
+  font-weight: bold;
+  text-decoration: none;
+}
+a.red:visited {
+  color: blue;
+
+}
+ a.red:hover {
+   color: red; 
+    }

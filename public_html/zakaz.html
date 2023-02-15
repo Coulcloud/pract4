@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"
+	<title></title> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+<h1>Заказ проекта</h1>
+<h3>Вы можете послать письмо на ваш электронный адрес</h3>
+<a> Написать письмо</a>
+<h3>Здесь Вы можете заполнить форму заказа для покупки проекта<br>Поля со <span>*</span> обязательны для заполнения</br></h3>
+<form>
+	<table border="1">
+		<tr>
+			<td>Текст заказа в произвольной форме:</td>
+			<td><textarea name="zakaz" rows="15" cols="35"></textarea></td>
+		</tr>
+		<tr>
+			<td>Фамилия,имя,отчество: <span>*</span></td>
+			<td><input type="text" name="FIO" required></td>
+		</tr>
+		<tr>
+			<td>Телефон<span>*</span>:</td>
+			<td><input type="text" name="Telefon"></td>
+		</tr>
+		<tr>
+			<td>Email<span>*</span>:</td>
+			<td><input type="text" name="Email"></td>
+		</tr>
+		<tr>
+			<td>Адрес:</td>
+			<td><input type="text" name="adres"></td>
+		</tr>
+		<tr>
+			<td>Выбирите категорию проекта:</td>
+			<td>
+					<select>
+					<option value="townhouse"/>Проекты таунхаусов и блокированных домов
+					<option value="two_family"/>Проекты домов на две семьи
+					<option value="uzkie"/>Проекты узких домов
+					<option value="banya" />Проекты бань
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Выберите материал</td>
+			<td><select>
+				<option value="kirpich" />Проекты кирпичных домов
+				<option value="gazobetom" />Проекты из газобетона и пенобетона
+				<option value="brus" />Проекты домов из бруса и дерева
+				<option value="karkas" />Проекты каркасных домов
+			</select></td>
+		</tr>
+		<tr>
+			<td>Ваш возраст</td>
+			<td>
+				
+					<br><input type="radio" name="m">Меньше 18	</br>
+					<input type="radio" name="m">18-50
+					<br><input type="radio" name="m">Старше 50</br>
+				
+				
+			
+					</td>
+		</tr>
+	</table>
+	<input type="submit" name="Заказать">
+	<input type="reset" name="Очистить">
+</form>
+</body>
+</html>
